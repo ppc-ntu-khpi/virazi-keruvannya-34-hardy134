@@ -1,12 +1,13 @@
 package test;
+import static domain.Exercise.Calculate;
 
-import domain.Exercise;
-
+/**
+ * test class
+ * @author Aksyuta Ivan
+ */
 public class TestResult {
-
-    public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
-    }
+  public static void main(String[] args) {
+     int[] array ={10, 8, 2, 10, 5};
+         System.out.println("Число "+Calculate(array)+" является другим за величиной ");
+}
 }
