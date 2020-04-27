@@ -7,7 +7,7 @@ import static domain.Exercise.Calculate;
  */
 public class TestResult {
   public static void main(String[] args) {
-     int[] array ={10, 8, 2, 10, 5};
-         System.out.println("Число "+Calculate(array)+" является другим за величиной ");
+     int[] array ={10, 8, 3, 4, 5};
+         System.out.println("Число "+Calculate(array)+" є другим за величиною в масиві ");
 }
 }
